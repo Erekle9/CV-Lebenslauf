@@ -1,0 +1,52 @@
+.cv {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 900px;
+    margin: auto;
+    display: flex;
+}
+
+.side {
+    background-color: rgba(97, 104, 121, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(174, 196, 210, 1);
+    padding: 20px;
+}
+
+.border {
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    border-radius: 50%;
+    background-image: url(Toedten\ Erekle.png);
+    background-size: cover;
+}
+
+.contact {
+    margin-top: 125px;
+    line-height: 300%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.main {
+    margin: 20px;
+}
+
+@media screen and (max-width:930px) {
+    .cv {
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .side,
+    .main {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
